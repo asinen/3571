@@ -3,8 +3,8 @@ cd /root/
 apt-get update
 apt-get install wget -y
 apt-get install supervisor -y
-wget https://raw.githubusercontent.com/asinen/3571/master/bityuan_ubuntu.tar
-tar zxf bityuan_ubuntu.tar
+wget https://raw.githubusercontent.com/asinen/3571/master/bityuan_ubuntu.tgz
+tar zxf bityuan_ubuntu.tgz
 cd bityuan
 cp bty.conf /etc/supervisor/conf.d/bty.conf
 supervisorctl reload
